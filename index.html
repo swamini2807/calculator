@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="file.js"></script>
+</head>
+<body>
+    <h1 class="parent">Calculator</h1>
+    <div class="calci">
+        <p class="brand-name">CASIO</p>
+        <input type="text" id="input" class="screen">
+        <div class="container">
+           <div class="btn-box">
+            <button class="btn" onclick="pressKey(7)">7</button>
+            <button class="btn" onclick="pressKey(8)">8</button>
+            <button class="btn" onclick="pressKey(9)">9 </button>
+            <button class="btn red-button" onclick="pressKey('/')">/</button>
+           </div>
+           
+           <div class="btn-box">
+            <button class="btn" onclick="pressKey(4)">4</button>
+            <button class="btn" onclick="pressKey(5)">5</button>
+            <button class="btn" onclick="pressKey(6)">6 </button>
+            <button class="btn red-button" onclick="pressKey('*')">x</button>
+           </div>
+
+           <div class="btn-box">
+            <button class="btn" onclick="pressKey(1)">1</button>
+            <button class="btn" onclick="pressKey(2)">2</button>
+            <button class="btn" onclick="pressKey(3)">3 </button>
+            <button class="btn red-button" onclick="pressKey('-')">-</button>
+           </div>
+         
+           <div class="btn-box">
+            <button class="btn" onclick="pressKey('0')">0</button>
+            <button class="btn" onclick="pressKey('.')">.</button>
+            <button class="btn red-button" onclick="pressKey('+')">+</button>
+            <button class="btn red-button"  onclick="calculate()">=</button>
+           </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>
